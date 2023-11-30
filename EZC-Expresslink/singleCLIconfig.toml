@@ -1,0 +1,14 @@
+esp_toml_version = 1.0
+
+multipart = true
+chip = "esp"
+supported_apps = ["Product"]
+
+[Product]
+chipsets = ["ESP"]
+readme.text = ["https://raw.githubusercontent.com/RushikeshPatange/tomlForMDToHtml/main/MD/README.md"]
+readme.files = ["https://esp-ezc-launchpad-588742218132-dev.s3.us-east-1.amazonaws.com/companies/pEueUvRKFKcouiYPnJoja9/products/NEkuKubMj6666crPr8roPh/760288873_1686308173/qrcode.png"]
+image.esp.parts = ["https://raw.githubusercontent.com/RushikeshPatange/c6_bin/main/esp32c6.bin"]
+image.esp.addresses = ["0x0"]
+[[portConnectionOptions]]
+baudRate = 115200
